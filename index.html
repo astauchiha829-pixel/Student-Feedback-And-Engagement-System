@@ -6,7 +6,10 @@
     <title>Student Feedback and Engagement System</title>
     <link rel="stylesheet" href="SFE.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
       rel="stylesheet"
@@ -36,12 +39,28 @@
         SFE System
       </a>
       <nav class="nav" id="nav" aria-label="Main"></nav>
+
+      <button
+  class="menu-toggle"
+  id="menuToggle"
+  type="button"
+  aria-label="Open navigation menu"
+  aria-expanded="false"
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </button>
       <div class="nav-links">
         <a href="#about" data-go="home" data-scroll="about">About</a>
         <a href="#features" data-go="home" data-scroll="features">Features</a>
         <a href="#contact" data-go="home" data-scroll="contact">Contact</a>
       </div>
-      <div class="school-chip"> <i class="fa-solid fa-graduation-cap"></i> Cabiao Senior High School</div>
+      <div class="school-chip">
+        <i class="fa-solid fa-graduation-cap"></i> Cabiao Senior High School
+      </div>
     </header>
 
     <div class="home">
@@ -204,7 +223,9 @@
 
     <main class="wrap">
       <section class="card view" id="view-register" hidden>
-        <h2 class="title"> <i class="fa-solid fa-file"></i> Student Registration</h2>
+        <h2 class="title">
+          <i class="fa-solid fa-file"></i> Student Registration
+        </h2>
         <p class="hint">Create an account using your school information.</p>
         <form id="regForm" novalidate>
           <label for="rName">Full Name</label>
@@ -267,7 +288,7 @@
       </section>
 
       <section class="card view" id="view-login" hidden>
-        <h2 class="title"> <i class="fa-solid fa-lock"></i> Student Login</h2>
+        <h2 class="title"><i class="fa-solid fa-lock"></i> Student Login</h2>
         <form id="logForm" novalidate>
           <label for="lId">Student ID</label>
           <input
