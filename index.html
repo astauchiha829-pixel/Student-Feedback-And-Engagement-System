@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Share suggestions, concerns and ideas with Cabiao Senior High School."
+    />
+    <meta name="theme-color" content="#e8ddff" />
+    <title>Student Feedback and Engagement System</title>
+    <link rel="stylesheet" href="SFE.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="animated-bg" aria-hidden="true">
+      <div class="gradient-orb orb1"></div>
+      <div class="gradient-orb orb2"></div>
+      <div class="gradient-orb orb3"></div>
+      <div class="particles"></div>
+      <div class="wave"></div>
+    </div>
+    <header class="site-nav">
+      <a class="brand" href="#" data-go="home" aria-label="SFE System home">
+        <svg viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M20 3l17 7-17 7-17-7z" fill="#5b21b6" />
+          <circle cx="12" cy="24" r="4.5" fill="#a78bfa" />
+          <circle cx="28" cy="24" r="4.5" fill="#60a5fa" />
+          <circle cx="20" cy="22" r="5" fill="#7c3aed" />
+          <path
+            d="M4 38c0-6 3.5-9 8-9s8 3 8 9zM20 38c0-6 3.5-9 8-9s8 3 8 9z"
+            fill="#6366f1"
+            opacity=".85"
+          />
+        </svg>
+        SFE System
+      </a>
+      <nav class="nav" id="nav" aria-label="Main"></nav>
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#about" data-go="home" data-scroll="about">About</a>
+        <a href="#features" data-go="home" data-scroll="features">Features</a>
+        <a href="#contact" data-go="home" data-scroll="contact">Contact</a>
+      </div>
+      <div class="school-chip">
+        <i class="fa-solid fa-graduation-cap"></i> Cabiao Senior High School
+      </div>
+    </header>
+
+    <div class="home">
+      <div class="view" id="view-home">
+        <section class="hero2">
+          <div>
+            <h1>
+              Student Feedback and <span class="grad">Engagement System</span>
+            </h1>
+            <p>Your voice. Our priority. A better school together.</p>
+            <div class="cta-row">
+              <button
+                class="pill"
+                id="homeCta"
+                type="button"
+                data-go="register"
+              >
+                Get Started <i class="fa-solid fa-right-long"></i>
+              </button>
+              <a
+                class="pill ghost"
+                href="https://youtu.be/_P5vR9pz5Hc"
+                target="_blank"
+                rel="noopener"
+                >▶ Learn More</a
+              >
+            </div>
+          </div>
+          <svg class="art" viewBox="0 0 520 340" aria-hidden="true">
+            <defs>
+              <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#8b5cf6" />
+                <stop offset="1" stop-color="#4338ca" />
+              </linearGradient>
+            </defs>
+            <g transform="rotate(-6 250 170)">
+              <rect
+                x="110"
+                y="30"
+                width="280"
+                height="205"
+                rx="14"
+                fill="url(#lg)"
+              />
+              <rect
+                x="126"
+                y="46"
+                width="248"
+                height="173"
+                rx="8"
+                fill="#eef0ff"
+              />
+              <g fill="#7c6cf0">
+                <circle cx="156" cy="92" r="12" />
+                <circle cx="156" cy="132" r="12" />
+                <circle cx="156" cy="172" r="12" />
+              </g>
+              <g
+                fill="none"
+                stroke="#fff"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M150 92l5 5 8-9M150 132l5 5 8-9M150 172l5 5 8-9" />
+              </g>
+              <g fill="#b9bff0">
+                <rect x="182" y="84" width="160" height="9" rx="4" />
+                <rect x="182" y="99" width="110" height="9" rx="4" />
+                <rect x="182" y="124" width="160" height="9" rx="4" />
+                <rect x="182" y="139" width="100" height="9" rx="4" />
+                <rect x="182" y="164" width="160" height="9" rx="4" />
+                <rect x="182" y="179" width="120" height="9" rx="4" />
+              </g>
+              <path d="M70 238h380l-18 24H88z" fill="#4338ca" />
+            </g>
+            <circle cx="440" cy="85" r="56" fill="#3b82f6" />
+            <text x="440" y="108" font-size="62" text-anchor="middle">👍</text>
+            <rect x="395" y="170" width="105" height="70" rx="22" fill="#fff" />
+            <g fill="#6366f1">
+              <circle cx="425" cy="205" r="7" />
+              <circle cx="448" cy="205" r="7" />
+              <circle cx="471" cy="205" r="7" />
+            </g>
+            <g stroke="#7c3aed" stroke-width="7" stroke-linecap="round">
+              <path d="M45 70l30 14M70 40l12 24" />
+            </g>
+          </svg>
+        </section>
+
+        <section class="feat" id="features">
+          <svg
+            width="34"
+            height="34"
+            viewBox="0 0 24 24"
+            fill="#7c3aed"
+            aria-hidden="true"
+          >
+            <rect x="3" y="12" width="5" height="9" rx="1.5" />
+            <rect x="10" y="7" width="5" height="14" rx="1.5" />
+            <rect x="17" y="3" width="4" height="18" rx="1.5" />
+          </svg>
+          <h2>Student Voice Matters</h2>
+          <p class="sub">
+            Share your ideas, concerns, and suggestions to help improve our
+            school.
+          </p>
+          <div class="cards4">
+            <article class="fcard c1">
+              <span class="ico"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"
+                  /></svg
+              ></span>
+              <h3>Suggestion Box</h3>
+              <p>Send ideas for school improvement.</p>
+              <button class="try" type="button" data-board="suggestion">
+                Try it now
+              </button>
+            </article>
+            <article class="fcard c2">
+              <span class="ico"
+                ><svg viewBox="0 0 24 24">
+                  <rect x="5" y="4" width="14" height="17" rx="2" />
+                  <path d="M9 4V3h6v1M9 13l2 2 4-4" /></svg
+              ></span>
+              <h3>Complaints</h3>
+              <p>Report school-related concerns.</p>
+              <button class="try" type="button" data-board="complaint">
+                Try it now
+              </button>
+            </article>
+            <article class="fcard c3">
+              <span class="ico"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M4 4h11a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9l-4 3v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM19 9h1a2 2 0 0 1 2 2v6l-3-2h-6"
+                  /></svg
+              ></span>
+              <h3>Open Forum</h3>
+              <p>Start respectful discussions.</p>
+              <button class="try" type="button" data-board="forum">
+                Try it now
+              </button>
+            </article>
+            <article class="fcard c4">
+              <span class="ico"
+                ><svg viewBox="0 0 24 24">
+                  <path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z" />
+                  <path d="M9 12l2 2 4-4" /></svg
+              ></span>
+              <h3>Freedom Wall</h3>
+              <p>Share thoughts and messages.</p>
+              <button class="try" type="button" data-board="wall">
+                Try it now
+              </button>
+            </article>
+          </div>
+        </section>
+
+        <section class="feat about" id="about">
+          <h2>About</h2>
+          <p class="sub">
+            The Student Feedback and Engagement System gives every Cabiao Senior
+            High School student one organized place to send suggestions, report
+            concerns, join discussions and share thoughts. Suggestions and
+            complaints go privately to the school admin, who can reply and
+            update their status.
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <section class="card view" id="view-register" hidden>
+        <h2 class="title">
+          <i class="fa-solid fa-file"></i> Student Registration
+        </h2>
+        <p class="hint">Create an account using your school information.</p>
+        <form id="regForm" novalidate>
+          <label for="rName">Full Name</label>
+          <input
+            id="rName"
+            placeholder="Juan Dela Cruz"
+            autocomplete="name"
+            required
+          />
+          <label for="rId">Student ID</label>
+          <input
+            id="rId"
+            placeholder="2026-0000"
+            autocomplete="username"
+            required
+          />
+          <label for="rEmail">School Email</label>
+          <input
+            id="rEmail"
+            type="email"
+            placeholder="student@example.com"
+            autocomplete="email"
+            required
+          />
+          <label for="rPass">Password</label>
+          <input
+            id="rPass"
+            type="password"
+            placeholder="At least 6 characters"
+            autocomplete="new-password"
+            required
+          />
+          <p class="error" id="regErr" role="alert"></p>
+          <button class="btn" type="submit">Register and Verify</button>
+        </form>
+        <p class="alt">
+          Already registered? <a href="#" data-go="login">Login here</a>
+        </p>
+      </section>
+
+      <section class="card view" id="view-verify" hidden>
+        <h2 class="title">✅ Verify your account</h2>
+        <p class="hint">Enter the 6-digit code to finish registration.</p>
+        <div class="notice" id="codeNotice"></div>
+        <form id="verForm" novalidate>
+          <label for="vCode">Verification code</label>
+          <input
+            id="vCode"
+            inputmode="numeric"
+            maxlength="6"
+            placeholder="000000"
+            autocomplete="one-time-code"
+          />
+          <p class="error" id="verErr" role="alert"></p>
+          <button class="btn" type="submit">Verify account</button>
+          <button class="link-btn" type="button" id="resend">
+            Send a new code
+          </button>
+        </form>
+      </section>
+
+      <section class="card view" id="view-login" hidden>
+        <h2 class="title"><i class="fa-solid fa-lock"></i> Student Login</h2>
+        <form id="logForm" novalidate>
+          <label for="lId">Student ID</label>
+          <input
+            id="lId"
+            placeholder="Your Student ID"
+            autocomplete="username"
+            required
+          />
+          <label for="lPass">Password</label>
+          <input
+            id="lPass"
+            type="password"
+            autocomplete="current-password"
+            required
+          />
+          <p class="error" id="logErr" role="alert"></p>
+          <button class="btn" type="submit">Login</button>
+        </form>
+        <p class="alt">
+          No account yet? <a href="#" data-go="register">Register here</a>
+        </p>
+      </section>
+
+      <section class="card view" id="view-board" hidden>
+        <div class="board-head">
+          <h2 class="title" id="bTitle"></h2>
+          <p class="hint" id="bHint"></p>
+        </div>
+        <div class="tabs" id="tabs" role="tablist"></div>
+        <form id="postForm" novalidate>
+          <label for="pSubject" id="pSubjectLbl">Subject</label>
+          <input id="pSubject" maxlength="80" required />
+          <label for="pBody">Message</label>
+          <textarea id="pBody" rows="4" maxlength="600" required></textarea>
+          <label class="check"
+            ><input type="checkbox" id="pAnon" /> Post anonymously</label
+          >
+          <p class="error" id="postErr" role="alert"></p>
+          <button class="btn" type="submit" id="postBtn">Send</button>
+        </form>
+        <h3 class="list-title" id="listTitle"></h3>
+        <ul class="posts" id="posts"></ul>
+      </section>
+    </main>
+
+    <footer class="foot" id="contact">
+      Student Feedback and Engagement System • Cabiao Senior High School<br />Questions?
+      Visit the school guidance office.
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="SFE.js"></script>
+  </body>
+</html>
